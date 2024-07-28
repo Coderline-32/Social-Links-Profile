@@ -1,0 +1,98 @@
+*{
+	border: border-box;
+}
+body{
+	background-color: #F1DEB3;
+	font-family:'Georgia', serif;
+	font-size: 0.9em;
+
+
+}
+.container{  				/*Body stylings*/
+	border: 1px solid white;
+	margin: 375px;
+	padding: 10px;
+	background-color: white;
+	border-radius: 15px
+
+}
+#picture{			/*Picture styles*/
+	padding: 10px;
+	border: 1px solid #F2F3F1;
+	border-radius: 10px;
+	background-image: url(Omelette.jpeg);
+	background-width: 250px
+	position:relative;
+	background-size: 500px;
+	height: 200px;
+	background-repeat: no-repeat;
+	margin:40px
+	width: 300px;
+	display:block;
+	text-align: center
+
+
+	
+}
+.listi{						/*styling the ingredients list*/
+	background-color: #F9E4E4;
+	border: 1px solid white;
+	padding top:8px;
+	padding-bottom: 8px;
+	padding-left: 30px;
+	border-radius: 10px;
+	color: black;
+
+
+}
+#adjustment{
+	font-size: 0.8em;
+}
+
+#editor{
+	list-style-type: none
+}
+hr{
+	background-color: red;
+}
+
+}
+
+h1{
+	font-style: outfit-black;
+	margin-bottom: 8px
+
+
+}
+h3{
+	font-style: outfit-bold;
+	margin-bottom: 8px
+
+}
+p{
+	font: sans-serif;
+
+}
+@media screen(min-width: 1200px  and max-width: 1500 ){
+
+	body{font-size: 0.9rem;
+	color: #121310;
+
+}
+.picture{ 
+	height: auto;
+	text-align: center;
+	font-size: 20px;
+    width: 100%
+    position: relative; 
+ }
+ .container{
+    width: 100%;
+    
+ }
+
+
+}
+@media{
+	font-s
+}
